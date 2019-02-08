@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<h2>filter art by tag: </h2>
+<form method="GET" action="/">
+		<input type="text" name="filter" value="">	
+		<input type="submit"  value="Filter!">	
+</form>
+
+<br>
+<h2>artworks</h2>
+<ul>
+
+{{#each artDataArr as |artData|}}
+<li>
+<h3>{{ artData.date }} {{ artData.title }}</h3>
+<pre>{{ artData.art }}</pre>
+tags: {{#each artData.tags as |tag|}}
+<a href="/?filter={{ tag }}">{{ tag }}</a>
+{{/each}}
+<br>
+</li>
+{{/each}}
+</ul>
