@@ -1,22 +1,5 @@
 
 {
-  "name": "ascii-art-logger",
-  "version": "1.0.0",
-  "description": "ascii art journal logging",
-  "main": ".eslintrc.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sosezzu/ascii-art-logger.git"
-  },
-  "author": "nobodyhere2see",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/sosezzu/ascii-art-logger/issues"
-  },
-  "homepage": "https://github.com/sosezzu/ascii-art-logger#readme",
   "dependencies": {
     "express": "^4.16.4",
     "hbs": "^4.0.1"
