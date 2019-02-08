@@ -1,2 +1,2 @@
-# ascii-art-logger
+# ASCII Art Logger
 Journalesque ASCII Art logging and filtering
